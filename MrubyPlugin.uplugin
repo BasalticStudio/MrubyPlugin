@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+
+	"FriendlyName" : "Mruby Plugin",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Basaltic Studio",
+	"CreatedByURL" : "http://basaltic.tw",
+	"EngineVersion" : "4.8.0",
+	"Description" : "A mruby script plugin",
+	"Category" : "Script",
+	"EnabledByDefault" : true,
+
+	"Modules" :
+	[
+		{
+			"Name" : "MrubyPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "MrubyEditorPlugin",
+			"Type" : "Editor"
+		}
+	]
+}
